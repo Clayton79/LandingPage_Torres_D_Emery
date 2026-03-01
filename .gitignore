@@ -1,0 +1,52 @@
+# Dependencies
+node_modules/
+package-lock.json
+yarn.lock
+pnpm-lock.yaml
+
+# Build output
+dist/
+build/
+*.tsbuildinfo
+
+# Development
+.vscode/
+!.vscode/extensions.json
+.idea/
+*.sw[op]
+*~
+.DS_Store
+
+# Environment
+.env
+.env.local
+.env.*.local
+
+# Logs
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# IDE
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# OS
+Thumbs.db
+.DS_Store
+
+# Firebase (removed)
+.firebase/
+.firebaserc
+firebase-debug.log
+dataconnect/
+src/dataconnect-generated/
+
+# Testing
+coverage/
+.nyc_output/
